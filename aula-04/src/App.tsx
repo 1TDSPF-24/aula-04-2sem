@@ -1,8 +1,13 @@
+import Cabecalho from "./components/cabecalho/cabecalho";
+import Principal from "./components/Principal/principal";
+import Rodape from "./components/rodape/rodape";
 
 export default function App(){
   return (
-    <div>
-      <h1>Ola Mundo</h1>
-    </div>
+    <>
+    <Cabecalho/>
+    <Principal/>
+    <Rodape/>
+    </>
   );
 }
