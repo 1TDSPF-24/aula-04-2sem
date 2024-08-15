@@ -1,14 +1,12 @@
-import React from 'react'
-
 export default function Lista() {
-  
-  const usuarios = ["Hugo", "Marcel", "Mohamed"]
-  
+
+    const usuarios = ["Huguinho","Zezinho","Luizinho"];
+
   return (
-     <ul>
-        {usuarios.map((usario, i) => (
-            <li>usario</li>
-        ))};
-     </ul>
+        <ul>
+            {usuarios.map((usuario,i)=>(
+                <li key={i}>{usuario}</li>
+            ))}
+        </ul>
   );
 }
