@@ -1,11 +1,11 @@
 export default function Lista() {
 
-    const usuarios = ["Huguinho","Zezinho","Luizinho"];
+    const usuarios = ["Huguinho","Zezinho","Luizinho", "Nathan"];
 
   return (
         <ul>
-            {usuarios.map((usuario,i)=>(
-                <li key={i}>{usuario}</li>
+            {usuarios.map((usuario)=>(
+                <li>{usuario}</li>
             ))}
         </ul>
   );
